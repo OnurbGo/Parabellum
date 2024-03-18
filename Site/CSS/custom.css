@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    border-top: 2px solid #CCC;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+
+.textogeral{
+    color: white;
+
+}
+
+.textocentro{
+    text-align: center;
+}
+
+video{
+    width: 100px;
+    height: auto;
+}
+
+.tamanhologo{
+    max-width: 100px;
+    max-height: 100px;
+}
+
+body{
+    background-color: black;
+}
