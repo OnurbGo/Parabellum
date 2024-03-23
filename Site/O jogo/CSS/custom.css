@@ -4,6 +4,7 @@
 }
 
 footer{
+    border-top: 2px solid #CCC;
     background-color: black;
     width: 100%;
     text-align: center;
@@ -11,7 +12,7 @@ footer{
 }
 
 .textogeral{
-    color: rgb(0, 0, 0);
+    color: white;
 
 }
 
@@ -30,7 +31,7 @@ video{
 }
 
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: black;
 }
 
 .cartaz{
@@ -41,34 +42,13 @@ body{
     max-height: 800px;
 }
 
-.centro{
-    width: 1000px;
-    margin: auto;
-}
-
-.grid{
-    display: grid;
-    grid-template-columns: 50% 50%;
-}
-
-.grid .coluna img{
-    width: 100%;
-}
-
-.grid .coluna p{
-    margin: 15px;
-    text-align: center;
-}
-
 .nav {
-    background-color: #000;
     max-width: 1280px;
     height: 70px;
     margin-inline: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .nav-list {
@@ -79,7 +59,7 @@ body{
 
 .nav-list a {
     font-size: 18px;
-    color: #ffffff;
+    color: #fff;
     padding-block: 16px;
 }
 

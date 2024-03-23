@@ -4,6 +4,7 @@
 }
 
 footer{
+    border-top: 2px solid #CCC;
     background-color: black;
     width: 100%;
     text-align: center;
@@ -11,7 +12,7 @@ footer{
 }
 
 .textogeral{
-    color: rgb(0, 0, 0);
+    color: white;
 
 }
 
@@ -30,20 +31,55 @@ video{
 }
 
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: black;
 }
 
-.cartaz{
-    padding-top: 10px;
-    margin: auto;
-    display: block;
-    max-width: 800px;
-    max-height: 800px;
+.instagramlogo{
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.zaplogo{
+    max-width: 100px;
+    max-height: 100px;
 }
 
 .centro{
     width: 1000px;
     margin: auto;
+}
+
+input, textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+label{
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+}
+
+button{
+    background-color: white;
+    padding: 10px;
+    border: 0;
+    margin-top: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    transition: 0.5s;
+    background-color: red;
+}
+
+section{
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .grid{
@@ -55,20 +91,13 @@ body{
     width: 100%;
 }
 
-.grid .coluna p{
-    margin: 15px;
-    text-align: center;
-}
-
 .nav {
-    background-color: #000;
     max-width: 1280px;
     height: 70px;
     margin-inline: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .nav-list {
@@ -79,7 +108,7 @@ body{
 
 .nav-list a {
     font-size: 18px;
-    color: #ffffff;
+    color: #fff;
     padding-block: 16px;
 }
 
