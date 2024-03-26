@@ -12,7 +12,7 @@ footer{
 
 .textogeral{
     color: rgb(0, 0, 0);
-
+    font-family:sans-serif,arial;
 }
 
 .textocentro{
@@ -68,7 +68,9 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    padding-left: 35px;
+    padding-right: 35px ;
+    box-shadow: 2px 2px 9px gray
 }
 
 .nav-list {
@@ -85,4 +87,14 @@ body{
 
 a{
     text-decoration: none;
+}
+
+.icone{
+    max-width: 8%;
+    max-height: 8%;
+}
+
+.textobranco{
+    color: rgb(255, 255, 255);
+    font-family:sans-serif,arial;   
 }
