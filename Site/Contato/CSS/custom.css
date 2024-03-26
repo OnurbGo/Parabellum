@@ -74,7 +74,7 @@ button{
 
 button:hover{
     transition: 0.5s;
-    background-color: red;
+    background-color: rgb(155, 155, 155);
 }
 
 section{
@@ -92,12 +92,16 @@ section{
 }
 
 .nav {
+    background-color: #000;
     max-width: 1280px;
     height: 70px;
     margin-inline: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 35px;
+    padding-right: 35px ;
+    box-shadow: 1px 1px 1px rgb(255, 255, 255)
 }
 
 .nav-list {
@@ -114,4 +118,9 @@ section{
 
 a{
     text-decoration: none;
+}
+
+.icone{
+    max-width: 8%;
+    max-height: 8%;
 }

@@ -9,10 +9,11 @@ footer{
     width: 100%;
     text-align: center;
     bottom: 0;
+    position: fixed;
 }
 
 .textogeral{
-    color: white;
+    color: rgb(0, 0, 0);
 
 }
 
@@ -30,8 +31,13 @@ video{
     max-height: 100px;
 }
 
+.icone{
+    max-width: 8%;
+    max-height: 8%;
+}
+
 body{
-    background-color: black;
+    background-color: rgb(255, 255, 255);
 }
 
 .cartaz{
@@ -43,12 +49,16 @@ body{
 }
 
 .nav {
+    background-color: #000;
     max-width: 1280px;
     height: 70px;
     margin-inline: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 35px;
+    padding-right: 35px ;
+    box-shadow: 2px 2px 9px gray
 }
 
 .nav-list {
@@ -59,7 +69,7 @@ body{
 
 .nav-list a {
     font-size: 18px;
-    color: #fff;
+    color: #ffffff;
     padding-block: 16px;
 }
 

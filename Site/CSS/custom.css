@@ -82,7 +82,7 @@ body{
 .nav-list a {
     font-size: 18px;
     color: #ffffff;
-    padding-block: 16px;
+    padding-block: 18px;
 }
 
 a{
@@ -97,4 +97,9 @@ a{
 .textobranco{
     color: rgb(255, 255, 255);
     font-family:sans-serif,arial;   
+}
+
+.personagens{
+    max-width: 50% ;
+    max-height: 100% ;
 }
