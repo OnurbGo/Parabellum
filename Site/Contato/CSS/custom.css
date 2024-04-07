@@ -101,7 +101,8 @@ section{
     align-items: center;
     padding-left: 35px;
     padding-right: 35px ;
-    box-shadow: 1px 1px 1px rgb(255, 255, 255)
+    box-shadow: 1px 1px 1px rgb(255, 255, 255);
+    margin-right: -20px;
 }
 
 .nav-list {
@@ -111,7 +112,7 @@ section{
 }
 
 .nav-list a {
-    font-size: 18px;
+    font-size: 22px;
     color: #fff;
     padding-block: 16px;
 }
