@@ -159,6 +159,7 @@
         text-align: center;
         bottom: 0;
         position: fixed;
+        color: white;
     }
     
     .textogeral{
@@ -254,5 +255,13 @@
     .personagens{
         max-width: 50% ;
         max-height: 100% ;
+    }
+
+    .dev{
+        max-width: 50% ;
+        max-height: 100% ; 
+    }
+    .t_dev{
+        font-size: 30px;
     }
 }

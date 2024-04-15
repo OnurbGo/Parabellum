@@ -137,10 +137,18 @@
         max-width: 50% ;
         max-height: 100% ;
     }
+    .lista{
+        font-size: 65px;
+        text-align: center;
+    }
+
+    .video{
+    max-width: 20%;
+    max-height: 100%;
+    margin-left: 46%;
+    }
 }
 
-/*Computador*/
-@media (min-width: 720px) {
 
     *{
         margin: 0;
@@ -254,4 +262,14 @@
         max-width: 50% ;
         max-height: 100% ;
     }
-}
+    
+    .lista{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .video{
+    max-width: 10%;
+    max-height: 100%;
+    margin-left: 46%;
+    }

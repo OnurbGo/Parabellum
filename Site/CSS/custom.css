@@ -1,5 +1,5 @@
 /*Mobile*/
-@media (max-width: 719px) {
+/* @media (max-width: 719px) { */
     /* mostrar o menu normal */
     .header .header-nav {
         display: block;
@@ -134,7 +134,19 @@
         max-width: 50% ;
         max-height: 100% ;
     }
-}
+
+    .introducao{
+        margin-left: 25%;
+        text-align: center;
+        width: 50%;
+    }
+
+    .jogocentro {
+        display: none !important;
+        opacity: 0;
+    }
+
+/* } */
 
 /*Computador*/
 @media (min-width: 720px) {
@@ -248,5 +260,18 @@
     .personagens{
         max-width: 50% ;
         max-height: 100% ;
+    }
+    .introducao{
+        margin-left: 25%;
+        text-align: center;
+        width: 50%;
+    }
+
+    .jogocentro{
+        align-items: center;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        margin-left: 75px;
+        margin-right: 10px;
     }
 }
