@@ -45,12 +45,13 @@ body{
 }
 
 .centro{
-    width: 1000px;
+    width: 100%;
     margin: auto;
 }
 
 input, textarea{
-    width: 100%;
+    height: 10%;
+    width: 80%;
     border: 1px solid #ccc;
     padding: 10px;
     box-sizing: border-box;
@@ -124,4 +125,11 @@ a{
 .icone{
     max-width: 8%;
     max-height: 8%;
+}
+
+@media (max-width: 486px) {
+    .icone{
+        max-width: 50%;
+        max-height: 50%;
+    }
 }

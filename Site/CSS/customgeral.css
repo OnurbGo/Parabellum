@@ -1,5 +1,5 @@
 /*Mobile*/
-@media (max-width: 719px) {
+@media (max-width: 486px) {
     /* mostrar o menu normal */
     .header .header-nav {
         display: block;
@@ -34,10 +34,6 @@
         color: #ffffff;
         padding-block: 18px;
     }
-    .icone{
-        max-width: 20%;
-        max-height: 20%;
-    }
     
     *{
         margin: 0;
@@ -45,18 +41,15 @@
     }
     
     footer{
-        border-top: 2px solid #CCC;
         background-color: black;
         width: 100%;
         text-align: center;
         bottom: 0;
-        position: fixed;
     }
     
     .textogeral{
         color: rgb(0, 0, 0);
         font-family:sans-serif,arial;
-        font-size: 50px;
     }
     
     .textocentro{
@@ -73,11 +66,8 @@
     }
     
     .cartaz{
-        padding-top: 10px;
-        margin: auto;
-        display: block;
-        max-width: 800px;
-        max-height: 800px;
+        display: none !important;
+        opacity: 0;
     }
     
     .centro{
@@ -109,7 +99,7 @@
         align-items: center;
         padding-left: 35px;
         padding-right: 35px ;
-        box-shadow: 2px 2px 9px gray
+        box-shadow: 2px 2px 9px gray;
     }
     
     .nav-list {
@@ -137,10 +127,46 @@
         max-width: 50% ;
         max-height: 100% ;
     }
-}
 
+    .introducao{
+        margin-left: 25%;
+        text-align: center;
+        width: 50%;
+    }
+
+    .icone{
+        max-width: 50%;
+        max-width: 50%;
+    }
+
+    .video{
+        max-width: 20%;
+        max-height: 100%;
+        margin-left: 46%;
+        }
+    
+        .jogocentro {
+            display: none !important;
+            opacity: 0;
+        }
+        
+    h3{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .dev{
+        max-width: 40% ;
+        align-items: center;
+    }
+
+    .t_dev{
+        font-size: 30px;
+        text-align: center;
+    }
+
+}
 /*Computador*/
-@media (min-width: 720px) {
 
     *{
         margin: 0;
@@ -153,13 +179,10 @@
     }
     
     footer{
-        border-top: 2px solid #CCC;
         background-color: black;
         width: 100%;
         text-align: center;
         bottom: 0;
-        position: fixed;
-        color: white;
     }
     
     .textogeral{
@@ -223,7 +246,6 @@
         padding-left: 35px;
         padding-right: 35px ;
         box-shadow: 2px 2px 9px gray;
-        margin-right: -20px;
     }
     
     .nav-list {
@@ -243,8 +265,8 @@
     }
     
     .icone{
-        max-width: 8%;
-        max-height: 8%;
+        width: 8%;
+        height: 8%;
     }
     
     .textobranco{
@@ -256,12 +278,44 @@
         max-width: 50% ;
         max-height: 100% ;
     }
+    .introducao{
+        margin-left: 25%;
+        text-align: center;
+        width: 50%;
+    }
 
-    .dev{
+    .video{
+        max-width: 10%;
+        max-height: 100%;
+        margin-left: 46%;
+        }
+    
+        .jogocentro{
+            align-items: center;
+            margin-bottom: 240px;
+            margin-top: 50px;
+            margin-left: 75px;
+            margin-right: 10px;
+        
+        }
+        .lista{
+            font-size: 20px;
+            text-align: center;
+        }
+        
+        .dev{
         max-width: 50% ;
         max-height: 100% ; 
-    }
-    .t_dev{
+        }
+        .t_dev{
         font-size: 30px;
-    }
-}
+        }
+        .footer_q{
+            border-top: 2px solid #CCC;
+            background-color: black;
+            width: 100%;
+            text-align: center;
+            bottom: 0;
+            position: fixed;
+            color: white;
+        }
